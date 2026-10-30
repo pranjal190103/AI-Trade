@@ -8,7 +8,7 @@ import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { revenue } from './data'
 import { useStore } from './store'
-
+ 
 const menu = [
   { label: 'WORKSPACE', items: [['Overview','/dashboard',LayoutDashboard],['AI Assistant','/assistant',Sparkles],['Receptionist','/receptionist',Headphones],['Enquiries','/enquiries',MessageSquareText],['Customers','/customers',Users],['Jobs & Calendar','/calendar',CalendarDays]] },
   { label: 'BUSINESS', items: [['Quotes','/quotes',FileCheck2],['Invoices','/invoices',FileText],['Payments','/payments',CreditCard],['Expenses','/expenses',Wallet],['Reports','/reports',ChartNoAxesCombined]] },
